@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.img-container{
+    background-image: url(/img/main-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+    height: 337px;
+}
+
+.text-container{
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.nav-container ul li a:hover{
+    text-decoration: underline;
+    color: grey;
+    text-underline-offset: .5rem;
+}
+
+.about-main-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-img{
+    height: 250px;
+}
+
+.about-text-container{
+    /* border: 1px solid black; */
+    width: 46%;
+}
+
+.about-text-container p{
+    padding: 10px;
+}
+
+.h1-text{
+    width: 25%;
+    /* border: 1px solid black; */
+    padding: 2.2px;
+    background: linear-gradient(45deg, grey, black);
+    background-clip: text;
+    color: transparent;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .9rem;
+    background: transparent;
+    position: relative;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: grey;
+    transition: 1s;
+}
+
+.project-section{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.projects-container{
+    width: 350px;
+    
+}
+
+.icons{
+    display: flex;
+}
+
+.icons h4{
+    padding-left: 4px;
+}
+
+.certi-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.sub-certi-container{
+    /* border: 1px solid black; */
+    width: 450px;
+}
+
+.certi-1{
+    width: 450px;
+}
+
+.contact{
+    background-image: url(/img/contact-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.contact-container{
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.social-media{
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-media a:hover{
+    text-decoration: underline;
+    color: grey;
+    text-underline-offset: .5rem;
+}
+
+.foot{
+    /* height: 250px; */
+    text-align: center;
+}
